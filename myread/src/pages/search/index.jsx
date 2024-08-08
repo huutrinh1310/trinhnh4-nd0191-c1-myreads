@@ -1,3 +1,20 @@
 export default function SearchPage() {
-  return <div>this is search page</div>;
+  return (
+    <div className="app">
+      <div className="search-books">
+        <div className="search-books-bar">
+          <a className="close-search">Close</a>
+          <div className="search-books-input-wrapper">
+            <input
+              type="text"
+              placeholder="Search by title, author, or ISBN"
+            />
+          </div>
+        </div>
+        <div className="search-books-results">
+          <ol className="books-grid"></ol>
+        </div>
+      </div>
+    </div>
+  );
 }
