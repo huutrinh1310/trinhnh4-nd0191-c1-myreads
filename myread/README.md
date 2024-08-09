@@ -10,6 +10,34 @@ To get started developing right away:
 
 ## What You're Getting
 
+```bash
+├── README.md - This file.
+├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
+├── jsconfig.json # config the naming typing and rule of code in this project
+├── tailwindcss.config.js # config of tailwindcss library
+├── vite.config.js # config of vite appwish.
+├── index.html # DO NOT MODIFY
+├── public
+│   ├── vite.svg # React Icon, You may change if you
+└── src
+    ├── assets
+        ├── icons # Helpful images for your app. Use at your discretion.
+    │   ├── add.svg
+    │   ├── arrow-back.svg
+    │   └── arrow-drop-down.svg
+        ├── react.svg
+    ├── index.css # Styles for your app. Feel free to customize this as you desire.
+    ├── components
+    ├── hook
+    ├── lib
+    ├── pages
+    ├── routes
+    ├── main.jsx # This is the root of your app. Contains static HTML right now.
+    ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
+
+    ├── index.css # Global styles. You probably won't need to change anything here.
+    └── index.js # You should not need to modify this file. It is used for DOM rendering only.
+```
 
 ## Backend Server
 

@@ -1,17 +1,17 @@
 import Book from "./Book";
 
-function ListBook({ books, onChange }) {
-  const BookCard = books?.map((item) => {
+function BookList({ books, onChangeStatus }) {
+  const ListBookCard = books?.map((item) => {
     return (
       <Book
         key={item.id}
         content={item}
-        onChange={onChange}
+        onChange={onChangeStatus}
       />
     );
   });
 
-  return <ol className="books-grid">{BookCard}</ol>;
+  return <ol className="books-grid">{ListBookCard}</ol>;
 }
 
-export default ListBook;
+export default BookList;

@@ -15,7 +15,7 @@ function Book({ content, onChange }) {
               backgroundImage: `url("${imageLinks.thumbnail}")`,
             }}
           ></div>
-          <div className="book-shelf-changer bg-primary">
+          <div className="book-shelf-changer bg-primary hover:opacity-85">
             <select
               onChange={(e) => {
                 onChange(content, e.target.value);
